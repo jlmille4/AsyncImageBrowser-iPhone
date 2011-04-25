@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1BE8D8B3136639BF001B6309 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BE8D8B2136639BF001B6309 /* UIKit.framework */; };
+		1BE8D8B5136639BF001B6309 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BE8D8B4136639BF001B6309 /* Foundation.framework */; };
+		1BE8D8B7136639BF001B6309 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BE8D8B6136639BF001B6309 /* CoreGraphics.framework */; };
+		1BE8D8BD136639BF001B6309 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1BE8D8BB136639BF001B6309 /* InfoPlist.strings */; };
+		1BE8D8C0136639BF001B6309 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE8D8BF136639BF001B6309 /* main.m */; };
+		1BE8D8C3136639BF001B6309 /* AsyncImageBrowserAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE8D8C2136639BF001B6309 /* AsyncImageBrowserAppDelegate.m */; };
+		1BE8D8C6136639BF001B6309 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BE8D8C4136639BF001B6309 /* MainWindow.xib */; };
+		1BE8D8CD136639BF001B6309 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BE8D8B2136639BF001B6309 /* UIKit.framework */; };
+		1BE8D8CE136639BF001B6309 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BE8D8B4136639BF001B6309 /* Foundation.framework */; };
+		1BE8D8CF136639BF001B6309 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BE8D8B6136639BF001B6309 /* CoreGraphics.framework */; };
+		1BE8D8D7136639BF001B6309 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1BE8D8D5136639BF001B6309 /* InfoPlist.strings */; };
+		1BE8D8DA136639BF001B6309 /* AsyncImageBrowserTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 1BE8D8D9136639BF001B6309 /* AsyncImageBrowserTests.h */; };
+		1BE8D8DC136639BF001B6309 /* AsyncImageBrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE8D8DB136639BF001B6309 /* AsyncImageBrowserTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1BE8D8D0136639BF001B6309 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BE8D8A5136639BF001B6309 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BE8D8AD136639BF001B6309;
+			remoteInfo = AsyncImageBrowser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1BE8D8AE136639BF001B6309 /* AsyncImageBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AsyncImageBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BE8D8B2136639BF001B6309 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1BE8D8B4136639BF001B6309 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1BE8D8B6136639BF001B6309 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1BE8D8BA136639BF001B6309 /* AsyncImageBrowser-Info.plist */ = {isa = PBXFileReference; path = "AsyncImageBrowser-Info.plist"; sourceTree = "<group>"; };
+		1BE8D8BC136639BF001B6309 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1BE8D8BE136639BF001B6309 /* AsyncImageBrowser-Prefix.pch */ = {isa = PBXFileReference; path = "AsyncImageBrowser-Prefix.pch"; sourceTree = "<group>"; };
+		1BE8D8BF136639BF001B6309 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1BE8D8C1136639BF001B6309 /* AsyncImageBrowserAppDelegate.h */ = {isa = PBXFileReference; path = AsyncImageBrowserAppDelegate.h; sourceTree = "<group>"; };
+		1BE8D8C2136639BF001B6309 /* AsyncImageBrowserAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AsyncImageBrowserAppDelegate.m; sourceTree = "<group>"; };
+		1BE8D8C5136639BF001B6309 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		1BE8D8CC136639BF001B6309 /* AsyncImageBrowserTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsyncImageBrowserTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BE8D8D4136639BF001B6309 /* AsyncImageBrowserTests-Info.plist */ = {isa = PBXFileReference; path = "AsyncImageBrowserTests-Info.plist"; sourceTree = "<group>"; };
+		1BE8D8D6136639BF001B6309 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1BE8D8D8136639BF001B6309 /* AsyncImageBrowserTests-Prefix.pch */ = {isa = PBXFileReference; path = "AsyncImageBrowserTests-Prefix.pch"; sourceTree = "<group>"; };
+		1BE8D8D9136639BF001B6309 /* AsyncImageBrowserTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AsyncImageBrowserTests.h; sourceTree = "<group>"; };
+		1BE8D8DB136639BF001B6309 /* AsyncImageBrowserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AsyncImageBrowserTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1BE8D8AB136639BF001B6309 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BE8D8B3136639BF001B6309 /* UIKit.framework in Frameworks */,
+				1BE8D8B5136639BF001B6309 /* Foundation.framework in Frameworks */,
+				1BE8D8B7136639BF001B6309 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BE8D8C8136639BF001B6309 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BE8D8CD136639BF001B6309 /* UIKit.framework in Frameworks */,
+				1BE8D8CE136639BF001B6309 /* Foundation.framework in Frameworks */,
+				1BE8D8CF136639BF001B6309 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BE8D8A3136639BF001B6309 = {
+			isa = PBXGroup;
+			children = (
+				1BE8D8B8136639BF001B6309 /* AsyncImageBrowser */,
+				1BE8D8D2136639BF001B6309 /* AsyncImageBrowserTests */,
+				1BE8D8B1136639BF001B6309 /* Frameworks */,
+				1BE8D8AF136639BF001B6309 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1BE8D8AF136639BF001B6309 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1BE8D8AE136639BF001B6309 /* AsyncImageBrowser.app */,
+				1BE8D8CC136639BF001B6309 /* AsyncImageBrowserTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1BE8D8B1136639BF001B6309 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1BE8D8B2136639BF001B6309 /* UIKit.framework */,
+				1BE8D8B4136639BF001B6309 /* Foundation.framework */,
+				1BE8D8B6136639BF001B6309 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1BE8D8B8136639BF001B6309 /* AsyncImageBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				1BE8D8C1136639BF001B6309 /* AsyncImageBrowserAppDelegate.h */,
+				1BE8D8C2136639BF001B6309 /* AsyncImageBrowserAppDelegate.m */,
+				1BE8D8C4136639BF001B6309 /* MainWindow.xib */,
+				1BE8D8B9136639BF001B6309 /* Supporting Files */,
+			);
+			path = AsyncImageBrowser;
+			sourceTree = "<group>";
+		};
+		1BE8D8B9136639BF001B6309 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1BE8D8BA136639BF001B6309 /* AsyncImageBrowser-Info.plist */,
+				1BE8D8BB136639BF001B6309 /* InfoPlist.strings */,
+				1BE8D8BE136639BF001B6309 /* AsyncImageBrowser-Prefix.pch */,
+				1BE8D8BF136639BF001B6309 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1BE8D8D2136639BF001B6309 /* AsyncImageBrowserTests */ = {
+			isa = PBXGroup;
+			children = (
+				1BE8D8D9136639BF001B6309 /* AsyncImageBrowserTests.h */,
+				1BE8D8DB136639BF001B6309 /* AsyncImageBrowserTests.m */,
+				1BE8D8D3136639BF001B6309 /* Supporting Files */,
+			);
+			path = AsyncImageBrowserTests;
+			sourceTree = "<group>";
+		};
+		1BE8D8D3136639BF001B6309 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1BE8D8D4136639BF001B6309 /* AsyncImageBrowserTests-Info.plist */,
+				1BE8D8D5136639BF001B6309 /* InfoPlist.strings */,
+				1BE8D8D8136639BF001B6309 /* AsyncImageBrowserTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1BE8D8AD136639BF001B6309 /* AsyncImageBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BE8D8DF136639BF001B6309 /* Build configuration list for PBXNativeTarget "AsyncImageBrowser" */;
+			buildPhases = (
+				1BE8D8AA136639BF001B6309 /* Sources */,
+				1BE8D8AB136639BF001B6309 /* Frameworks */,
+				1BE8D8AC136639BF001B6309 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AsyncImageBrowser;
+			productName = AsyncImageBrowser;
+			productReference = 1BE8D8AE136639BF001B6309 /* AsyncImageBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1BE8D8CB136639BF001B6309 /* AsyncImageBrowserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BE8D8E2136639BF001B6309 /* Build configuration list for PBXNativeTarget "AsyncImageBrowserTests" */;
+			buildPhases = (
+				1BE8D8C7136639BF001B6309 /* Sources */,
+				1BE8D8C8136639BF001B6309 /* Frameworks */,
+				1BE8D8C9136639BF001B6309 /* Resources */,
+				1BE8D8CA136639BF001B6309 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1BE8D8D1136639BF001B6309 /* PBXTargetDependency */,
+			);
+			name = AsyncImageBrowserTests;
+			productName = AsyncImageBrowserTests;
+			productReference = 1BE8D8CC136639BF001B6309 /* AsyncImageBrowserTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1BE8D8A5136639BF001B6309 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1BE8D8A8136639BF001B6309 /* Build configuration list for PBXProject "AsyncImageBrowser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1BE8D8A3136639BF001B6309;
+			productRefGroup = 1BE8D8AF136639BF001B6309 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1BE8D8AD136639BF001B6309 /* AsyncImageBrowser */,
+				1BE8D8CB136639BF001B6309 /* AsyncImageBrowserTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1BE8D8AC136639BF001B6309 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BE8D8BD136639BF001B6309 /* InfoPlist.strings in Resources */,
+				1BE8D8C6136639BF001B6309 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BE8D8C9136639BF001B6309 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BE8D8D7136639BF001B6309 /* InfoPlist.strings in Resources */,
+				1BE8D8DA136639BF001B6309 /* AsyncImageBrowserTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1BE8D8CA136639BF001B6309 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1BE8D8AA136639BF001B6309 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BE8D8C0136639BF001B6309 /* main.m in Sources */,
+				1BE8D8C3136639BF001B6309 /* AsyncImageBrowserAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BE8D8C7136639BF001B6309 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BE8D8DC136639BF001B6309 /* AsyncImageBrowserTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1BE8D8D1136639BF001B6309 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1BE8D8AD136639BF001B6309 /* AsyncImageBrowser */;
+			targetProxy = 1BE8D8D0136639BF001B6309 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1BE8D8BB136639BF001B6309 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BE8D8BC136639BF001B6309 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1BE8D8C4136639BF001B6309 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BE8D8C5136639BF001B6309 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		1BE8D8D5136639BF001B6309 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BE8D8D6136639BF001B6309 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1BE8D8DD136639BF001B6309 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1BE8D8DE136639BF001B6309 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		1BE8D8E0136639BF001B6309 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AsyncImageBrowser/AsyncImageBrowser-Prefix.pch";
+				INFOPLIST_FILE = "AsyncImageBrowser/AsyncImageBrowser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1BE8D8E1136639BF001B6309 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AsyncImageBrowser/AsyncImageBrowser-Prefix.pch";
+				INFOPLIST_FILE = "AsyncImageBrowser/AsyncImageBrowser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1BE8D8E3136639BF001B6309 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AsyncImageBrowser.app/AsyncImageBrowser";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AsyncImageBrowserTests/AsyncImageBrowserTests-Prefix.pch";
+				INFOPLIST_FILE = "AsyncImageBrowserTests/AsyncImageBrowserTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		1BE8D8E4136639BF001B6309 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AsyncImageBrowser.app/AsyncImageBrowser";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AsyncImageBrowserTests/AsyncImageBrowserTests-Prefix.pch";
+				INFOPLIST_FILE = "AsyncImageBrowserTests/AsyncImageBrowserTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1BE8D8A8136639BF001B6309 /* Build configuration list for PBXProject "AsyncImageBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BE8D8DD136639BF001B6309 /* Debug */,
+				1BE8D8DE136639BF001B6309 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BE8D8DF136639BF001B6309 /* Build configuration list for PBXNativeTarget "AsyncImageBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BE8D8E0136639BF001B6309 /* Debug */,
+				1BE8D8E1136639BF001B6309 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1BE8D8E2136639BF001B6309 /* Build configuration list for PBXNativeTarget "AsyncImageBrowserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BE8D8E3136639BF001B6309 /* Debug */,
+				1BE8D8E4136639BF001B6309 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1BE8D8A5136639BF001B6309 /* Project object */;
+}
